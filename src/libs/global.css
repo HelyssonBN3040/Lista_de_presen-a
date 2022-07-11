@@ -63,3 +63,8 @@ body, input, button{
 .main button:hover{
     filter:brightness(0.9);
 }
+@media (max-width:768px){
+    .main input{
+        
+    }
+}

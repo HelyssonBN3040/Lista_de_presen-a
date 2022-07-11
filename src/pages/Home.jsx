@@ -37,7 +37,6 @@ export function Home() {
 
   return (
 
-    <div className="container">
       <div className="main">
         <header>
         <h1>Lista de Presença!</h1>
@@ -64,9 +63,8 @@ export function Home() {
           />
           ))
         }
+        <Rodape/>
 
       </div>
-      <Rodape/>
-    </div>
   )
 }
